@@ -1,0 +1,82 @@
+[
+  {
+    "@id": "https://schema.org/BedType#infobox",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#checkbox"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/BedType",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://schema.org/BedType"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A type of bed. This is used for indicating the bed or beds available in an accommodation."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "BedType"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://schema.org/QualitativeValue"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2d48fd9a703c49ddbafe7523f5ed3af0",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#Warning",
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:45:46.661527"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'canonical' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/BedType",
+    "http://www.w3.org/ns/rdfa#usesVocabulary": [
+      {
+        "@id": "http://schema.org/"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1b38ba5d8ceb43f794ac62fae325cb0d",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm",
+      "http://www.w3.org/ns/rdfa#Warning"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:45:46.659527"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'shortcut' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  }
+]

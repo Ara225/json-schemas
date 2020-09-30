@@ -1,0 +1,82 @@
+[
+  {
+    "@id": "http://schema.org/SideEffectsHealthAspect",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://schema.org/SideEffectsHealthAspect"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Side effects that can be observed from the usage of the topic."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "SideEffectsHealthAspect"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://schema.org/HealthAspectEnumeration"
+      }
+    ]
+  },
+  {
+    "@id": "_:N17b99e498cb94724861735a38f8f1e31",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#Warning",
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:40:25.907510"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'shortcut' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/SideEffectsHealthAspect#infobox",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#checkbox"
+      }
+    ]
+  },
+  {
+    "@id": "_:N18953a01715c4534b7492c450f048127",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm",
+      "http://www.w3.org/ns/rdfa#Warning"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:40:25.908510"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'canonical' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/SideEffectsHealthAspect",
+    "http://www.w3.org/ns/rdfa#usesVocabulary": [
+      {
+        "@id": "http://schema.org/"
+      }
+    ]
+  }
+]

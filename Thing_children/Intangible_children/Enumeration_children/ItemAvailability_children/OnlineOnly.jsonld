@@ -1,0 +1,82 @@
+[
+  {
+    "@id": "http://schema.org/OnlineOnly",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://schema.org/OnlineOnly"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Indicates that the item is available only online."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "OnlineOnly"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://schema.org/ItemAvailability"
+      }
+    ]
+  },
+  {
+    "@id": "_:N12742d081ce144769ac56836b82e4831",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#Warning",
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:40:38.875514"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'canonical' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne485a576f8c448098fb4a676e87e4e17",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#Warning",
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:40:38.874511"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'shortcut' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/OnlineOnly#infobox",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#checkbox"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/OnlineOnly",
+    "http://www.w3.org/ns/rdfa#usesVocabulary": [
+      {
+        "@id": "http://schema.org/"
+      }
+    ]
+  }
+]

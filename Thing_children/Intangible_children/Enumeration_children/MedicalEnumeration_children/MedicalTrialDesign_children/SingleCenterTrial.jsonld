@@ -1,0 +1,82 @@
+[
+  {
+    "@id": "https://schema.org/SingleCenterTrial#infobox",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#checkbox"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/SingleCenterTrial",
+    "http://www.w3.org/ns/rdfa#usesVocabulary": [
+      {
+        "@id": "http://schema.org/"
+      }
+    ]
+  },
+  {
+    "@id": "_:N07be376798664f9fb0ba845806c01f33",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm",
+      "http://www.w3.org/ns/rdfa#Warning"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:43:20.466801"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'canonical' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/SingleCenterTrial",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://schema.org/SingleCenterTrial"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A trial that takes place at a single center."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "SingleCenterTrial"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://schema.org/MedicalTrialDesign"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne0bca2b790d14696aedcfe7767470a52",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#Warning",
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:43:20.464801"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'shortcut' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  }
+]

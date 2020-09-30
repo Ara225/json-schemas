@@ -1,0 +1,1184 @@
+[
+  {
+    "@id": "http://schema.org/drug",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      },
+      {
+        "@id": "http://schema.org/TherapeuticProcedure"
+      },
+      {
+        "@id": "http://schema.org/Patient"
+      },
+      {
+        "@id": "http://schema.org/DrugClass"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Drug"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Specifying a drug or medicine used in a medication procedure"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "drug"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/epidemiology",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      },
+      {
+        "@id": "http://schema.org/PhysicalActivity"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The characteristics of associated patients, such as age, gender, race etc."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "epidemiology"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/description",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A description of the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "description"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/pathophysiology",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      },
+      {
+        "@id": "http://schema.org/PhysicalActivity"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Changes in the normal mechanical, physical, and biochemical functions that are associated with this activity or condition."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "pathophysiology"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/mainEntityOfPage",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      },
+      {
+        "@id": "http://schema.org/CreativeWork"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See background notes for details. Inverse property: mainEntity."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "mainEntityOfPage"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/primaryPrevention",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicalTherapy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A preventative therapy used to prevent an initial occurrence of the medical condition, such as vaccination."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "primaryPrevention"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/medicineSystem",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalEntity"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicineSystem"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The system of medicine that includes this MedicalEntity, for example 'evidence-based', 'homeopathic', 'chiropractic', etc."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "medicineSystem"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/expectedPrognosis",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The likely outcome in either the short term or long term of the medical condition."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "expectedPrognosis"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/legalStatus",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/DietarySupplement"
+      },
+      {
+        "@id": "http://schema.org/MedicalEntity"
+      },
+      {
+        "@id": "http://schema.org/Drug"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      },
+      {
+        "@id": "http://schema.org/MedicalEnumeration"
+      },
+      {
+        "@id": "http://schema.org/DrugLegalStatus"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The drug or supplement's legal status, including any controlled substance schedules that apply."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "legalStatus"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/guideline",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalEntity"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicalGuideline"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A medical guideline related to this entity."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "guideline"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/image",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      },
+      {
+        "@id": "http://schema.org/ImageObject"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An image of the item. This can be a URL or a fully described ImageObject."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "image"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/identifier",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      },
+      {
+        "@id": "http://schema.org/Text"
+      },
+      {
+        "@id": "http://schema.org/PropertyValue"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The identifier property represents any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See background notes for more details."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "identifier"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/possibleTreatment",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      },
+      {
+        "@id": "http://schema.org/MedicalSignOrSymptom"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicalTherapy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A possible treatment to address this condition, sign or symptom."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "possibleTreatment"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/code",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalEntity"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCode"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A medical code for the entity, taken from a controlled vocabulary or ontology such as ICD-9, DiseasesDB, MeSH, SNOMED-CT, RxNorm, etc."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "code"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/riskFactor",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicalRiskFactor"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A modifiable or non-modifiable factor that increases the risk of a patient contracting this condition, e.g. age,  coexisting condition."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "riskFactor"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/relevantSpecialty",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalEntity"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicalSpecialty"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "If applicable, a medical specialty in which this entity is relevant."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "relevantSpecialty"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/recognizingAuthority",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalEntity"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "If applicable, the organization that officially recognizes this entity as part of its endorsed system of medicine."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "recognizingAuthority"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/status",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalStudy"
+      },
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      },
+      {
+        "@id": "http://schema.org/MedicalProcedure"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      },
+      {
+        "@id": "http://schema.org/EventStatusType"
+      },
+      {
+        "@id": "http://schema.org/MedicalStudyStatus"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The status of the study (enumerated)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/potentialAction",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Action"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "potentialAction"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/signOrSymptom",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicalSignOrSymptom"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A sign or symptom of this condition. Signs are objective or physically observable manifestations of the medical condition while symptoms are the subjective experience of the medical condition."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "signOrSymptom"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/sameAs",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "sameAs"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/identifyingTest",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalSign"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicalTest"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A diagnostic test that can identify this sign."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "identifyingTest"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/secondaryPrevention",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicalTherapy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A preventative therapy used to prevent reoccurrence of the medical condition after an initial episode of the condition."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "secondaryPrevention"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/stage",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicalConditionStage"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The stage of the condition, if applicable."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "stage"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/name",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The name of the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "name"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/study",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalEntity"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicalStudy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A medical study or trial related to this entity."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "study"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/VitalSign",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://schema.org/VitalSign"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Vital signs are measures of various physiological functions in order to assess the most basic body functions."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "VitalSign"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://schema.org/MedicalSign"
+      }
+    ]
+  },
+  {
+    "@id": "_:N845b4272cec746818cfdd3a4c9bc2950",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm",
+      "http://www.w3.org/ns/rdfa#Warning"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:50:37.985542"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'shortcut' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/disambiguatingDescription",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "disambiguatingDescription"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/alternateName",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An alias for the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "alternateName"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/typicalTest",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MedicalTest"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A medical test typically performed given this condition."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "typicalTest"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd9530bb3febe40de9351d48178b79f72",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#Warning",
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:50:37.987542"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'canonical' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/VitalSign#infobox",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#checkbox"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/additionalType",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "additionalType"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/differentialDiagnosis",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/DDxElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "One of a set of differential diagnoses for the condition. Specifically, a closely-related or competing diagnosis typically considered later in the cognitive process whereby this medical condition is distinguished from others most likely responsible for a similar collection of signs and symptoms to reach the most parsimonious diagnosis or diagnoses in a patient."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "differentialDiagnosis"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/possibleComplication",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A possible unexpected and unfavorable evolution of a medical condition. Complications may include worsening of the signs or symptoms of the disease, extension of the condition to other organ systems, etc."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "possibleComplication"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/naturalProgression",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The expected progression of the condition if it is not treated and allowed to progress naturally."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "naturalProgression"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/VitalSign",
+    "http://www.w3.org/ns/rdfa#usesVocabulary": [
+      {
+        "@id": "http://schema.org/"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/subjectOf",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/Event"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A CreativeWork or Event about this Thing. Inverse property: about."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "subjectOf"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/url",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "URL of the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "url"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/associatedAnatomy",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalCondition"
+      },
+      {
+        "@id": "http://schema.org/PhysicalActivity"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/AnatomicalSystem"
+      },
+      {
+        "@id": "http://schema.org/AnatomicalStructure"
+      },
+      {
+        "@id": "http://schema.org/SuperficialAnatomy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The anatomy of the underlying organ system or structures associated with this entity."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "associatedAnatomy"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/identifyingExam",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalSign"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/PhysicalExam"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A physical examination that can identify this sign."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "identifyingExam"
+      }
+    ]
+  }
+]

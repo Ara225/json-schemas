@@ -1,0 +1,3361 @@
+[
+  {
+    "@id": "http://schema.org/geoOverlaps",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Represents a relationship between two geometries (or the places they represent), relating a geometry to another that geospatially overlaps it, i.e. they have some but not all points in common. As defined in DE-9IM."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "geoOverlaps"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/owns",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/OwnershipInfo"
+      },
+      {
+        "@id": "http://schema.org/Product"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Products owned by the organization or person."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "owns"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/unnamedSourcesPolicy",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/NewsMediaOrganization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "For an Organization (typically a NewsMediaOrganization), a statement about policy on use of unnamed sources and the decision process required."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "unnamedSourcesPolicy"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/geoContains",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Represents a relationship between two geometries (or the places they represent), relating a containing geometry to a contained geometry. \"a contains b iff no points of b lie in the exterior of a, and at least one point of the interior of b lies in the interior of a\". As defined in DE-9IM."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "geoContains"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/hasDriveThroughService",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Boolean"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Indicates whether some facility (e.g. FoodEstablishment, CovidTestingFacility) offers a service that can be used by driving through in a car. In the case of CovidTestingFacility such facilities could potentially help with social distancing from other potentially-infected users."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "hasDriveThroughService"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/geoCoveredBy",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Represents a relationship between two geometries (or the places they represent), relating a geometry to another that covers it. As defined in DE-9IM."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "geoCoveredBy"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/knowsAbout",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      },
+      {
+        "@id": "http://schema.org/Thing"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Of a Person, and less typically of an Organization, to indicate a topic that is known about - suggesting possible expertise but not implying it. We do not distinguish skill levels here, or relate this to educational content, events, objectives or JobPosting descriptions."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "knowsAbout"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/areaServed",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Demand"
+      },
+      {
+        "@id": "http://schema.org/DeliveryChargeSpecification"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/ContactPoint"
+      },
+      {
+        "@id": "http://schema.org/Service"
+      },
+      {
+        "@id": "http://schema.org/Offer"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/Text"
+      },
+      {
+        "@id": "http://schema.org/AdministrativeArea"
+      },
+      {
+        "@id": "http://schema.org/GeoShape"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The geographic area where a service or offered item is provided. Supersedes serviceArea."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "areaServed"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/naics",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The North American Industry Classification System (NAICS) code for a particular organization or business person."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "naics"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/founder",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A person who founded this organization. Supersedes founders."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "founder"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/telephone",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/ContactPoint"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The telephone number."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "telephone"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/geo",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/GeoShape"
+      },
+      {
+        "@id": "http://schema.org/GeoCoordinates"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The geo coordinates of the place."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "geo"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/logo",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/Product"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Brand"
+      },
+      {
+        "@id": "http://schema.org/Service"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      },
+      {
+        "@id": "http://schema.org/ImageObject"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An associated logo."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "logo"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/geoEquals",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Represents spatial relations in which two geometries (or the places they represent) are topologically equal, as defined in DE-9IM. \"Two geometries are topologically equal if their interiors intersect and no part of the interior or boundary of one geometry intersects the exterior of the other\" (a symmetric relationship)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "geoEquals"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/priceRange",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/LocalBusiness"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The price range of the business, for example $$$."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "priceRange"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/memberOf",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/ProgramMembership"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An Organization (or ProgramMembership) to which this Person or Organization belongs. Inverse property: member."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "memberOf"
+      }
+    ]
+  },
+  {
+    "@id": "_:N069902eb41c54ea8bdcb9c54c7c6884e",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#Warning",
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:52:15.840763"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'shortcut' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/hasCredential",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/EducationalOccupationalCredential"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A credential awarded to the Person or Organization."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "hasCredential"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/dissolutionDate",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Date"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The date that this organization was dissolved."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "dissolutionDate"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/photo",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/ImageObject"
+      },
+      {
+        "@id": "http://schema.org/Photograph"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A photograph of this place. Supersedes photos."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "photo"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/hasPOS",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Points-of-Sales operated by the organization or person."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "hasPOS"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/aggregateRating",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Service"
+      },
+      {
+        "@id": "http://schema.org/Offer"
+      },
+      {
+        "@id": "http://schema.org/Event"
+      },
+      {
+        "@id": "http://schema.org/Brand"
+      },
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/Product"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/AggregateRating"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The overall rating, based on a collection of reviews or ratings, of the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "aggregateRating"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/address",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/GeoCoordinates"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/GeoShape"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      },
+      {
+        "@id": "http://schema.org/PostalAddress"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Physical address of the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "address"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/mainEntityOfPage",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See background notes for details. Inverse property: mainEntity."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "mainEntityOfPage"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/funder",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/MonetaryGrant"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Event"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A person or organization that supports (sponsors) something through some kind of financial contribution."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "funder"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/identifier",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      },
+      {
+        "@id": "http://schema.org/PropertyValue"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The identifier property represents any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See background notes for more details."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "identifier"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/latitude",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/GeoCoordinates"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      },
+      {
+        "@id": "http://schema.org/Number"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The latitude of a location. For example 37.42242 (WGS 84)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "latitude"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/member",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/ProgramMembership"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A member of an Organization or a ProgramMembership. Organizations can be members of organizations; ProgramMembership is typically for individuals. Supersedes members, musicGroupMember. Inverse property: memberOf."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "member"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/geoWithin",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Represents a relationship between two geometries (or the places they represent), relating a geometry to one that contains it, i.e. it is inside (i.e. within) its interior. As defined in DE-9IM."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "geoWithin"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/openingHours",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/CivicStructure"
+      },
+      {
+        "@id": "http://schema.org/LocalBusiness"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The general opening hours for a business. Opening hours can be specified as a weekly time range, starting with days, then times per day. Multiple days can be listed with commas ',' separating each day. Day or time ranges are specified using a hyphen '-'.\n\n\nDays are specified using the following two-letter combinations: Mo, Tu, We, Th, Fr, Sa, Su.\nTimes are specified using 24:00 time. For example, 3pm is specified as 15:00. \nHere is an example: <time itemprop=\"openingHours\" datetime=\"Tu,Th 16:00-20:00\">Tuesdays and Thursdays 4-8pm</time>.\nIf a business is open 7 days a week, then it can be specified as <time itemprop=\"openingHours\" datetime=\"Mo-Su\">Monday through Sunday, all day</time>.\n\n"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "openingHours"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/potentialAction",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Action"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "potentialAction"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/currenciesAccepted",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/LocalBusiness"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The currency accepted.\n\nUse standard formats: ISO 4217 currency format e.g. \"USD\"; Ticker symbol for cryptocurrencies e.g. \"BTC\"; well known names for Local Exchange Tradings Systems (LETS) and other currency types e.g. \"Ithaca HOUR\"."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "currenciesAccepted"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/isicV4",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "isicV4"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/containedInPlace",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The basic containment relation between a place and one that contains it. Supersedes containedIn. Inverse property: containsPlace."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "containedInPlace"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/longitude",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/GeoCoordinates"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      },
+      {
+        "@id": "http://schema.org/Number"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The longitude of a location. For example -122.08585 (WGS 84)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "longitude"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/amenityFeature",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Accommodation"
+      },
+      {
+        "@id": "http://schema.org/LodgingBusiness"
+      },
+      {
+        "@id": "http://schema.org/FloorPlan"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/LocationFeatureSpecification"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An amenity feature (e.g. a characteristic or service) of the Accommodation. This generic property does not make a statement about whether the feature is included in an offer for the main accommodation or available at extra costs."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "amenityFeature"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/name",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The name of the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "name"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/geoTouches",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Represents spatial relations in which two geometries (or the places they represent) touch: they have at least one boundary point in common, but no interior points.\" (a symmetric relationship, as defined in DE-9IM )"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "geoTouches"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/event",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/InformAction"
+      },
+      {
+        "@id": "http://schema.org/LeaveAction"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/InviteAction"
+      },
+      {
+        "@id": "http://schema.org/PlayAction"
+      },
+      {
+        "@id": "http://schema.org/JoinAction"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Event"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Upcoming or past event associated with this place, organization, or action. Supersedes events."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "event"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/isAccessibleForFree",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Event"
+      },
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Boolean"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A flag to signal that the item, event, or place is accessible for free. Supersedes free."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "isAccessibleForFree"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/duns",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The Dun & Bradstreet DUNS number for identifying an organization or business person."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "duns"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/sponsor",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/MedicalStudy"
+      },
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/Grant"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Event"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A person or organization that supports a thing through a pledge, promise, or financial contribution. e.g. a sponsor of a Medical Study or a corporate sponsor of an event."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "sponsor"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/diversityPolicy",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/NewsMediaOrganization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Statement on diversity policy by an Organization e.g. a NewsMediaOrganization. For a NewsMediaOrganization, a statement describing the newsroom’s diversity policy on both staffing and sources, typically providing staffing data."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "diversityPolicy"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/alternateName",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An alias for the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "alternateName"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/disambiguatingDescription",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "disambiguatingDescription"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/globalLocationNumber",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "globalLocationNumber"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/maximumAttendeeCapacity",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/Event"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Integer"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The total number of individuals that may attend an event or venue."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "maximumAttendeeCapacity"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/geoIntersects",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Represents spatial relations in which two geometries (or the places they represent) have at least one point in common. As defined in DE-9IM."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "geoIntersects"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb5e11aca05444e81b5662364522d2f07",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm",
+      "http://www.w3.org/ns/rdfa#Warning"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:52:15.841760"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'canonical' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/leiCode",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An organization identifier that uniquely identifies a legal entity as defined in ISO 17442."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "leiCode"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/AutomotiveBusiness#infobox",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#checkbox"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/geoCovers",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Represents a relationship between two geometries (or the places they represent), relating a covering geometry to a covered geometry. \"Every point of b is a point of (the interior or boundary of) a\". As defined in DE-9IM."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "geoCovers"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/correctionsPolicy",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/NewsMediaOrganization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "For an Organization (e.g. NewsMediaOrganization), a statement describing (in news media, the newsroom’s) disclosure and correction policy for errors."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "correctionsPolicy"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/geoCrosses",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Represents a relationship between two geometries (or the places they represent), relating a geometry to another that crosses it: \"a crosses b: they have some but not all interior points in common, and the dimension of the intersection is less than that of at least one of them\". As defined in DE-9IM."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "geoCrosses"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/legalName",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The official name of the organization, e.g. the registered company name."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "legalName"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/employee",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Someone working for this organization. Supersedes employees."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "employee"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/review",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Product"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Brand"
+      },
+      {
+        "@id": "http://schema.org/Service"
+      },
+      {
+        "@id": "http://schema.org/Event"
+      },
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/Offer"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Review"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A review of the item. Supersedes reviews."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "review"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/parentOrganization",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The larger organization that this organization is a subOrganization of, if any. Supersedes branchOf. Inverse property: subOrganization."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "parentOrganization"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/tourBookingPage",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/Accommodation"
+      },
+      {
+        "@id": "http://schema.org/ApartmentComplex"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A page providing information on how to book a tour of some Place, such as an Accommodation or ApartmentComplex in a real estate setting, as well as other kinds of tours as appropriate."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "tourBookingPage"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/location",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Action"
+      },
+      {
+        "@id": "http://schema.org/Event"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/PostalAddress"
+      },
+      {
+        "@id": "http://schema.org/Text"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/VirtualLocation"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The location of for example where the event is happening, an organization is located, or where an action takes place."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "location"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/brand",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Service"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Product"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Brand"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "brand"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/foundingDate",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Date"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The date that this organization was founded."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "foundingDate"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/hasMap",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      },
+      {
+        "@id": "http://schema.org/Map"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A URL to a map of the place. Supersedes map, maps."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "hasMap"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/knowsLanguage",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Language"
+      },
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Of a Person, and less typically of an Organization, to indicate a known language. We do not distinguish skill levels or reading/writing/speaking/signing here. Use language codes from the IETF BCP 47 standard."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "knowsLanguage"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/faxNumber",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/ContactPoint"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The fax number."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "faxNumber"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/department",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A relationship between an organization and a department of that organization, also described as an organization (allowing different urls, logos, opening hours). For example: a store with a pharmacy, or a bakery with a cafe."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "department"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/additionalType",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "additionalType"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/AutomotiveBusiness",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://schema.org/AutomotiveBusiness"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Car repair, sales, or parts."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "AutomotiveBusiness"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://schema.org/LocalBusiness"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/url",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "URL of the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "url"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/AutomotiveBusiness",
+    "http://www.w3.org/ns/rdfa#usesVocabulary": [
+      {
+        "@id": "http://schema.org/"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/ownershipFundingInfo",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/NewsMediaOrganization"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      },
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/AboutPage"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "For an Organization (often but not necessarily a NewsMediaOrganization), a description of organizational ownership structure; funding and grants. In a news/media setting, this is with particular reference to editorial independence.   Note that the funder is also available and can be used to make basic funder information machine-readable."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "ownershipFundingInfo"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/paymentAccepted",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/LocalBusiness"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Cash, Credit Card, Cryptocurrency, Local Exchange Tradings System, etc."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "paymentAccepted"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/hasMerchantReturnPolicy",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Product"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/MerchantReturnPolicy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Indicates a MerchantReturnPolicy that may be applicable. Supersedes hasProductReturnPolicy."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "hasMerchantReturnPolicy"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/ethicsPolicy",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/NewsMediaOrganization"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Statement about ethics policy, e.g. of a NewsMediaOrganization regarding journalistic and publishing practices, or of a Restaurant, a page describing food source policies. In the case of a NewsMediaOrganization, an ethicsPolicy is typically a statement describing the personal, organizational, and corporate standards of behavior expected by the organization."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "ethicsPolicy"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/geoDisjoint",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/GeospatialGeometry"
+      },
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Represents spatial relations in which two geometries (or the places they represent) are topologically disjoint: they have no point in common. They form a set of disconnected geometries.\" (a symmetric relationship, as defined in DE-9IM)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "geoDisjoint"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/diversityStaffingReport",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/NewsMediaOrganization"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Article"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "For an Organization (often but not necessarily a NewsMediaOrganization), a report on staffing diversity issues. In a news context this might be for example ASNE or RTDNA (US) reports, or self-reported."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "diversityStaffingReport"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/description",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A description of the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "description"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/subOrganization",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A relationship between two organizations where the first includes the second, e.g., as a subsidiary. See also: the more specific 'department' property. Inverse property: parentOrganization."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "subOrganization"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/taxID",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "taxID"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/vatID",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The Value-added Tax ID of the organization or person."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "vatID"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/image",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      },
+      {
+        "@id": "http://schema.org/ImageObject"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An image of the item. This can be a URL or a fully described ImageObject."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "image"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/publishingPrinciples",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The publishingPrinciples property indicates (typically via URL) a document describing the editorial principles of an Organization (or individual e.g. a Person writing a blog) that relate to their activities as a publisher, e.g. ethics or diversity policies. When applied to a CreativeWork (e.g. NewsArticle) the principles are those of the party primarily responsible for the creation of the CreativeWork.\n\nWhile such policies are most typically expressed in natural language, sometimes related information (e.g. indicating a funder) can be expressed using schema.org terminology."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "publishingPrinciples"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/actionableFeedbackPolicy",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/NewsMediaOrganization"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "For a NewsMediaOrganization or other news-related Organization, a statement about public engagement activities (for news media, the newsroom’s), including involving the public - digitally or otherwise -- in coverage decisions, reporting and activities after publication."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "actionableFeedbackPolicy"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/contactPoint",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/HealthInsurancePlan"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/ContactPoint"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A contact point for a person or organization. Supersedes contactPoints."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "contactPoint"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/email",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/ContactPoint"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Email address."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "email"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/alumni",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/EducationalOrganization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Alumni of an organization. Inverse property: alumniOf."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "alumni"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/makesOffer",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Offer"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A pointer to products or services offered by the organization or person. Inverse property: offeredBy."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "makesOffer"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/slogan",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/Product"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Brand"
+      },
+      {
+        "@id": "http://schema.org/Service"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A slogan or motto associated with the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "slogan"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/publicAccess",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Boolean"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A flag to signal that the Place is open to public visitors.  If this property is omitted there is no assumed default boolean value"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "publicAccess"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/sameAs",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "sameAs"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/nonprofitStatus",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/NonprofitType"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "nonprofit Status indicates the legal status of a non-profit organization in its primary place of business."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "nonprofitStatus"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/openingHoursSpecification",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/OpeningHoursSpecification"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The opening hours of a certain place."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "openingHoursSpecification"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/foundingLocation",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The place where the Organization was founded."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "foundingLocation"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/branchCode",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A short textual code (also called \"store code\") that uniquely identifies a place of business. The code is typically assigned by the parentOrganization and used in structured URLs.\n\nFor example, in the URL http://www.starbucks.co.uk/store-locator/etc/detail/3047 the code \"3047\" is a branchCode for a particular branch."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "branchCode"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/subjectOf",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/Event"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A CreativeWork or Event about this Thing. Inverse property: about."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "subjectOf"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/smokingAllowed",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Boolean"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Indicates whether it is allowed to smoke in the place, e.g. in the restaurant, hotel or hotel room."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "smokingAllowed"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/hasOfferCatalog",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Service"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/OfferCatalog"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Indicates an OfferCatalog listing for this Organization, Person, or Service."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "hasOfferCatalog"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/interactionStatistic",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/InteractionCounter"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used. Supersedes interactionCount."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "interactionStatistic"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/specialOpeningHoursSpecification",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/OpeningHoursSpecification"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The special opening hours of a certain place.\n\nUse this to explicitly override general opening hours brought in scope by openingHoursSpecification or openingHours."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "specialOpeningHoursSpecification"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/award",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Product"
+      },
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      },
+      {
+        "@id": "http://schema.org/Service"
+      },
+      {
+        "@id": "http://schema.org/CreativeWork"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An award won by or for this item. Supersedes awards."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "award"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/seeks",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Person"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Demand"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A pointer to products or services sought by the organization or person (demand)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "seeks"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/additionalProperty",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      },
+      {
+        "@id": "http://schema.org/QuantitativeValue"
+      },
+      {
+        "@id": "http://schema.org/Product"
+      },
+      {
+        "@id": "http://schema.org/QualitativeValue"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/PropertyValue"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A property-value pair representing an additional characteristics of the entitity, e.g. a product feature or another characteristic for which there is no matching property in schema.org.\n\nNote: Publishers should be aware that applications designed to use specific schema.org properties (e.g. http://schema.org/width, http://schema.org/color, http://schema.org/gtin13, ...) will typically expect such data to be provided using those properties, rather than using the generic property/value mechanism."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "additionalProperty"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/numberOfEmployees",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/BusinessAudience"
+      },
+      {
+        "@id": "http://schema.org/Organization"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/QuantitativeValue"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The number of employees in an organization e.g. business."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "numberOfEmployees"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/containsPlace",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The basic containment relation between a place and another that it contains. Inverse property: containedInPlace."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "containsPlace"
+      }
+    ]
+  }
+]

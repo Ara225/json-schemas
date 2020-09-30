@@ -1,0 +1,495 @@
+[
+  {
+    "@id": "http://schema.org/description",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A description of the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "description"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/mainEntityOfPage",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      },
+      {
+        "@id": "http://schema.org/CreativeWork"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See background notes for details. Inverse property: mainEntity."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "mainEntityOfPage"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5054e6faa15f4996abbb6e5795c5fc89",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#Warning",
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:49:07.358537"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'shortcut' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/SpeakableSpecification#infobox",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#checkbox"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/image",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/ImageObject"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An image of the item. This can be a URL or a fully described ImageObject."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "image"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/identifier",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      },
+      {
+        "@id": "http://schema.org/URL"
+      },
+      {
+        "@id": "http://schema.org/PropertyValue"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The identifier property represents any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See background notes for more details."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "identifier"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/xpath",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/SpeakableSpecification"
+      },
+      {
+        "@id": "http://schema.org/WebPageElement"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/XPathType"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An XPath, e.g. of a SpeakableSpecification or WebPageElement. In the latter case, multiple matches within a page can constitute a single conceptual \"Web page element\"."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "xpath"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/potentialAction",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Action"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "potentialAction"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8659472ae6804198a7779738bf3473ea",
+    "@type": [
+      "http://www.w3.org/ns/rdfa#UnresolvedTerm",
+      "http://www.w3.org/ns/rdfa#Warning"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-09-30T20:49:07.360538"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "[In element 'link'] 'canonical' is used as a term, but has not been defined as such; ignored"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/sameAs",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "sameAs"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/cssSelector",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/SpeakableSpecification"
+      },
+      {
+        "@id": "http://schema.org/WebPageElement"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/CssSelectorType"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A CSS selector, e.g. of a SpeakableSpecification or WebPageElement. In the latter case, multiple matches within a page can constitute a single conceptual \"Web page element\"."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "cssSelector"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/name",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The name of the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "name"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/SpeakableSpecification",
+    "http://www.w3.org/ns/rdfa#usesVocabulary": [
+      {
+        "@id": "http://schema.org/"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/alternateName",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An alias for the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "alternateName"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/disambiguatingDescription",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/Text"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "disambiguatingDescription"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/additionalType",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "additionalType"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/subjectOf",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/CreativeWork"
+      },
+      {
+        "@id": "http://schema.org/Event"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A CreativeWork or Event about this Thing. Inverse property: about."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "subjectOf"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/SpeakableSpecification",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://schema.org/SpeakableSpecification"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A SpeakableSpecification indicates (typically via xpath or cssSelector) sections of a document that are highlighted as particularly speakable. Instances of this type are expected to be used primarily as values of the speakable property."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "SpeakableSpecification"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://schema.org/Intangible"
+      }
+    ]
+  },
+  {
+    "@id": "http://schema.org/url",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://schema.org/domainIncludes": [
+      {
+        "@id": "http://schema.org/Thing"
+      }
+    ],
+    "http://schema.org/rangeIncludes": [
+      {
+        "@id": "http://schema.org/URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "URL of the item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "url"
+      }
+    ]
+  }
+]
